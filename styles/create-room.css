@@ -36,11 +36,22 @@ main h2 {
 input {
     border: .2rem solid var(--grey-blue);
     padding: 0 1.6rem;
+    width: 100%;
 }
 
-input, button {
-    width: 100%;
-    margin-bottom: 1.4rem
+div#create-page-buttons {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+button {
+    width: 78%;
+}
+
+a {
+    width: 20%;
+    margin-right: 0.7rem;
 }
 
 .ball-top {

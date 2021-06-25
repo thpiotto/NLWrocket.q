@@ -57,12 +57,12 @@ body, button, input, textarea {
     border-width: 0;
 }
 
-input, button, .button {
+a, input, button, .button {
     border-radius: .8rem;
     height: 5rem;
 }
 
-button, .button {
+a, button, .button {
     font-family: 'Poppins';
     font-weight: 500;
     line-height: 0;
@@ -75,7 +75,7 @@ button, .button {
     cursor: pointer;
 }
 
-button:hover, .button:hover {
+a:hover, button:hover, .button:hover {
     filter: brightness(1.2);
 }
 
@@ -83,7 +83,7 @@ button > img, .button > img {
     margin-right: 1rem;
     width: 2rem;
 }
-button.outlined, .button.outlined {
+a.outlined, button.outlined, .button.outlined {
     background: var(--white);
     color: var(--blue);
     border: .2rem solid var(--blue)
